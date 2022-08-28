@@ -1,0 +1,9 @@
+@font-face{
+    font-family:"sans-bold";
+    src:url("../font/SFNSDisplay-Bold.otf")
+}
+
+@font-face{
+    font-family:"sans-regular";
+    src:url("../font/SFNSDisplay-Regular.otf")
+}

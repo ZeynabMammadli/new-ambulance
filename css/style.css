@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+header .header-top {
+  background-color: #00A5C7;
+  padding: 17px 0; }
+  header .header-top .all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .header-top .all .left a {
+      text-decoration: none;
+      color: #F6F6F6;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      margin-right: 25px; }
+      header .header-top .all .left a img {
+        margin-right: 4px; }
+    header .header-top .all .left .mail {
+      border-left: 1px solid #F7F7F7;
+      padding-left: 20px; }
+  header .header-top .right a img {
+    margin-left: 10px; }
+header .header-bottom {
+  padding: 18px 0px; }
+  header .header-bottom .two-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .header-bottom .two-all ul {
+      display: flex;
+      align-items: center; }
+      header .header-bottom .two-all ul li {
+        list-style: none; }
+        header .header-bottom .two-all ul li a {
+          text-decoration: none;
+          color: #6D6E70;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          margin-left: 40px; }
+          header .header-bottom .two-all ul li a img {
+            margin-left: 20px; }
+
+.ambulance-section .banner-carousel .owl-nav {
+  display: none; }
+.ambulance-section .banner-carousel .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  align-items: center; }
+  .ambulance-section .banner-carousel .owl-dots button {
+    width: 11px;
+    height: 11px;
+    background-color: #C4C4C4;
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 100%; }
+  .ambulance-section .banner-carousel .owl-dots .active {
+    background-color: #00A5C7;
+    width: 14px;
+    height: 14px; }
+
+.ambulance-service {
+  padding: 100px 0; }
+  .ambulance-service .service-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 67px; }
+    .ambulance-service .service-text:after {
+      content: "";
+      position: absolute;
+      top: 70px;
+      width: 200px;
+      height: 2px;
+      background-color: #00A5C7; }
+    .ambulance-service .service-text h3 {
+      font-family: "sans-bold";
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 57px;
+      color: #2E2E2E; }
+  .ambulance-service .ambulance-carousel {
+    display: block;
+    position: relative; }
+    .ambulance-service .ambulance-carousel .all-servic {
+      display: flex; }
+      .ambulance-service .ambulance-carousel .all-servic .left-img {
+        margin-right: 30px; }
+      .ambulance-service .ambulance-carousel .all-servic .right-text {
+        margin-top: 11px; }
+        .ambulance-service .ambulance-carousel .all-servic .right-text h4 {
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 26px;
+          font-family: "sans-bold";
+          color: #2E2E2E; }
+        .ambulance-service .ambulance-carousel .all-servic .right-text p {
+          font-weight: 400;
+          font-size: 18px;
+          font-family: "sans-regular";
+          color: #6D6E70; }
+    .ambulance-service .ambulance-carousel .owl-nav {
+      position: absolute;
+      top: 20%;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+      .ambulance-service .ambulance-carousel .owl-nav .owl-prev {
+        margin-left: -60px; }
+      .ambulance-service .ambulance-carousel .owl-nav .owl-next {
+        margin-right: -60px; }
+        .ambulance-service .ambulance-carousel .owl-nav .owl-next img {
+          transform: rotate(180deg); }
+      .ambulance-service .ambulance-carousel .owl-nav button {
+        width: 38px;
+        height: 38px;
+        border: 1px solid #979797;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .ambulance-service .ambulance-carousel .owl-nav button:hover {
+          background-color: #00A5C7;
+          border-color: #00A5C7; }
+          .ambulance-service .ambulance-carousel .owl-nav button:hover img {
+            filter: brightness(0) invert(1); }
+
+/*# sourceMappingURL=style.css.map */
