@@ -5,3 +5,13 @@
 //     line-height: 19px;
 //     color:#6D6E70;
 // }
+
+@mixin button-list {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #979797;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
